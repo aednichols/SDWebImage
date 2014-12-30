@@ -106,6 +106,9 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
         // Set decompression to YES
         _shouldDecompressImages = YES;
 
+        // Set decompression to YES
+        _shouldDecompressImages = YES;
+
         dispatch_sync(_ioQueue, ^{
             _fileManager = [NSFileManager new];
         });
